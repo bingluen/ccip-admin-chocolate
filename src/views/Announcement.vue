@@ -1,8 +1,8 @@
 <template>
   <div class="announcement md-layout">
-    <AnnForm class="md-layout-item md-large-size-30 md-small-size-100"
+    <AnnForm class="md-layout-item md-large-size-30 md-xlarge-size-30 md-small-size-100"
       :isSending="sending" @submit="submitAnnouncement" />
-    <AnnList class="md-layout-item md-large-size-70 md-small-size-100"
+    <AnnList class="md-layout-item md-large-size-70 md-xlarge-size-70 md-small-size-100"
       :announcements="announcements"/>
   </div>
 </template>
