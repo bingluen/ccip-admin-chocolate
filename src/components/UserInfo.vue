@@ -3,7 +3,9 @@
     <template v-if="user">
       <md-card-header>
         <md-card-header-text>
-          <div class="md-subhead">{{ user.first_use ? `OPass login on ${user.first_use}` : 'Not login on OPass' }}</div>
+          <div class="md-subhead">
+            {{ user.first_use ? `OPass login on ${user.first_use}` : 'Not login on OPass' }}
+          </div>
           <div class="md-title">{{ user.user_id ? user.user_id : 'unknown' }}</div>
           <div class="md-subhead">{{ user.type ? user.type : 'unknown' }}</div>
         </md-card-header-text>
