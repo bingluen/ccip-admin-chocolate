@@ -15,8 +15,8 @@
 </template>
 
 <script>
-import QRCodeReader from '../components/QRCodeReader.vue';
-import UserInfo from '../components/UserInfo.vue';
+import QRCodeReader from '@/components/QRCodeReader.vue';
+import UserInfo from '@/components/UserInfo.vue';
 
 export default {
   name: 'CheckIn',

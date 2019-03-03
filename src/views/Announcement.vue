@@ -8,8 +8,8 @@
 </template>
 
 <script>
-import AnnForm from '../components/AnnouncementForm.vue';
-import AnnList from '../components/AnnouncementList.vue';
+import AnnForm from '@/components/AnnouncementForm.vue';
+import AnnList from '@/components/AnnouncementList.vue';
 
 export default {
   name: 'Announcement',
