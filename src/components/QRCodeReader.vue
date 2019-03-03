@@ -70,7 +70,7 @@ export default {
     scanCallback(content) {
       this.token = content;
     },
-    sendToken: _.throttle((that, newValue) => {
+    sendToken: _.debounce((that, newValue) => {
       that.$emit('reciver', newValue);
     }, 500),
   },
