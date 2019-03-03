@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "instascan": "https://github.com/schmich/instascan.git#b0f9519",
+    "lodash": "^4.17.11",
     "vue": "^2.6.6",
     "vue-material": "^1.0.0-beta-10.2",
     "vue-router": "^3.0.1",
