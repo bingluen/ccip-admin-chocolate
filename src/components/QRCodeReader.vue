@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <video ref="video" :width="width" :height="height" playsinline autoplay muted></video>
+  <div class="wrapper" :width="width" :height="height">
+    <video ref="video" playsinline autoplay muted></video>
     <div v-if="displayError">
       找不到相機或無法開啟相機
     </div>
@@ -58,3 +58,9 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+video {
+  margin: 0 auto;
+}
+</style>
